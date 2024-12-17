@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "O2PlayerCharacter.generated.h"
+#include "O2CharacterBase.generated.h"
 
 UCLASS()
-class UNREALSTUDY_2ND_API AO2PlayerCharacter : public ACharacter
+class UNREALSTUDY_2ND_API AO2CharacterBase : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
-	AO2PlayerCharacter();
+	AO2CharacterBase();
 
 protected:
 	// Called when the game starts or when spawned

@@ -5,7 +5,7 @@
 
 AO2GameModeBase::AO2GameModeBase()
 {
-	static ConstructorHelpers::FClassFinder<APawn> DefaultPawnRef(TEXT("/Game/Character/BP_Player.BP_Player_C"));
+	static ConstructorHelpers::FClassFinder<APawn> DefaultPawnRef(TEXT("/Game/Character/BP_Base.BP_Base_C"));
 	if (DefaultPawnRef.Class)
 	{
 		DefaultPawnClass = DefaultPawnRef.Class;
